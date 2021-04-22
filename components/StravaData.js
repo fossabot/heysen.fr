@@ -26,21 +26,21 @@ export const GitHubData = () => {
             <StatBox
                 title={`${runCount ? format(runCount) : '–––'}`}
                 desc="Total Runs"
-                url="https://www.strava.com/athletes/8696836"
+                url="https://www.strava.com/athletes/83965463"
                 inc_dec={run_increase > 0 ? 'increase' : 'decrease'}
                 percent={run_increase}
             />
             <StatBox
                 title={`${distance ? format(distanceConv) : '–––'}`}
                 desc="Total Distance (miles)"
-                url="https://www.strava.com/athletes/8696836"
+                url="https://www.strava.com/athletes/83965463"
                 inc_dec={distance_inc_conv > 0 ? 'increase' : 'decrease'}
                 percent={`${distance_inc_conv ? format(distance_inc_conv) : ''}`}
             />
             <StatBox
                 title={`${movingTime ? format(timeConv) : '–––'}`}
                 desc="Total time (minutes)"
-                url="https://www.strava.com/athletes/8696836"
+                url="https://www.strava.com/athletes/83965463"
                 inc_dec={time_increase_conv > 0 ? 'increase' : 'decrease'}
                 percent={`${time_increase_conv ? format(time_increase_conv) : ''}`}
             />
