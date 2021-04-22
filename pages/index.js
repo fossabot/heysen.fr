@@ -86,7 +86,7 @@ export default function Index() {
             aujourd'hui à l'<Link href="https://www.iseg.fr/" color={linkColor[colorMode]} isExternal>ISEG</Link> où j'y apprends les ficelles du marketing digital. Mon site personnel
             est l'endroit où je présente mes projets, mes écrits ou encore mon
             expérience. Il sert également de bac à sable pour jouer avec les
-            nouvelles technologies ! N'hésitez pas à me contacter par <Link href="mailto:bjcarlson42@gmail.com" color={linkColor[colorMode]}>mail</Link> ou
+            nouvelles technologies ! N'hésitez pas à me contacter par <Link href="mailto:heysen.florian@gmail.com" color={linkColor[colorMode]}>mail</Link> ou
             sur un autre réseau social pour toute question.
             </Text>
 

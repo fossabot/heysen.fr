@@ -110,7 +110,7 @@ const Statistics = () => {
                         maxWidth="700px"
                     >
                         <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-                            Statistics
+                            Statistiques
                         </Heading>
                     </Flex>
                     <SimpleGrid columns={[1, 2, 3]} w="100%">
