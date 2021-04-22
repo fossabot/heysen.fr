@@ -126,7 +126,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Mon dernier article de blog
+              Mon dernier article
             </Heading>
 
             <BlogPost
