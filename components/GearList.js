@@ -56,21 +56,15 @@ const GearList = () => {
     return (
         <>
             <Heading letterSpacing="tight" mb={2} mt={2} as="h2" size="xl">
-                Hardware
+                Matériel informatique
             </Heading>
             {hardware.map((g, i) => (
                 <Gear key={i} gear={g} />
             ))}
             <Heading letterSpacing="tight" mb={2} mt={4} as="h2" size="xl">
-                Software
+                Logiciels
             </Heading>
             {software.map((g, i) => (
-                <Gear key={i} gear={g} />
-            ))}
-            <Heading letterSpacing="tight" mb={2} mt={4} as="h2" size="xl">
-                Camera Gear
-            </Heading>
-            {cameraGear.map((g, i) => (
                 <Gear key={i} gear={g} />
             ))}
         </>

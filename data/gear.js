@@ -2,44 +2,44 @@ export const gear = [
     {
         id: 1,
         software: 0, // 0 -> hardware, 1 -> software, 2 -> cameraware
-        item: 'Laptop',
-        title: 'Apple MacBook Pro (15-Inch, 16GB RAM, 512GB Storage, 2.6GHz Intel Core i7)',
-        url: 'https://amzn.to/3o7y2l5'
+        item: 'Ordinateur portable',
+        title: 'Lenovo Legion Y540 (15 Pouces, 8GB RAM, 512GB de Stockage, 1.6 GHz Intel Core i5)',
+        url: 'https://amzn.to/3awuDbq'
     },
     {
         id: 2,
         software: 0,
-        item: 'Adaptor',
-        title: 'HyperDrive USB C Hub',
-        url: 'https://amzn.to/3sNfjP1'
+        item: 'Écrans (x2)',
+        title: 'Dell U2412m 24 pouces FHD 1920x1200 LED 16:10',
+        url: 'https://amzn.to/3tIqJDU'
     },
     {
         id: 3,
         software: 0,
-        item: 'Monitor',
-        title: 'Samsung CF390 Series 27 inch FHD 1920x1080 Curved Desktop Monitor',
-        url: 'https://amzn.to/3p6zbur'
+        item: 'Smartphone',
+        title: 'Apple iPhone X 256Go',
+        url: 'https://apple.co/3tOlsLd'
     },
     {
         id: 4,
         software: 0,
-        item: 'Smartphone',
-        title: 'Google Pixel 5',
-        url: 'https://amzn.to/3p9a9uB'
+        item: 'Clavier',
+        title: 'Razer BlackWidow Chroma V2',
+        url: 'https://amzn.to/3evjSaq'
     },
     {
         id: 5,
         software: 0,
-        item: 'Keyboard',
-        title: 'Wireless Keyboard',
-        url: 'https://amzn.to/2NlAA25'
+        item: 'Headphone',
+        title: 'SteelSeries Arctis 1',
+        url: 'https://amzn.to/3nhYWb5'
     },
     {
         id: 6,
         software: 0,
         item: 'Earbuds',
-        title: 'Google Pixel Buds',
-        url: 'https://store.google.com/us/product/pixel_buds'
+        title: 'Apple Airpods 2',
+        url: 'https://apple.co/2QTxPH2'
     },
     {
         id: 7,
@@ -58,85 +58,57 @@ export const gear = [
     {
         id: 9,
         software: 1,
-        item: 'Browser',
+        item: 'Navigateur',
         title: 'Google Chrome',
         url: 'https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLeDnQ1L1pND8ts1snJ2A5wNIul7CrvgKWxOhNmGrfabyt_PkyixYIAaAsvJEALw_wcB&gclsrc=aw.ds'
     },
     {
         id: 10,
         software: 1,
-        item: 'IPhone Simulator',
+        item: 'Simulateur iPhone',
         title: 'XCode',
         url: 'https://apps.apple.com/us/app/xcode/id497799835?mt=12'
     },
     {
         id: 11,
         software: 1,
-        item: 'Android Simulator',
+        item: 'Simulateur Android',
         title: 'Android Studio',
         url: 'https://developer.android.com/studio/?gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLdlLYJYU8qNSzIcvluTDWbziHdDle1QrR1ntM1J0T8XsZ6sUFG9B4saAmhrEALw_wcB&gclsrc=aw.ds'
     },
     {
         id: 12,
         software: 1,
-        item: 'Clean Up',
-        title: 'Clean My Mac X',
-        url: 'https://macpaw.com/cleanmymac'
+        item: 'Montage vidéo',
+        title: 'Adobe Premiere Pro',
+        url: 'https://www.adobe.com/fr/products/premiere.html'
     },
     {
         id: 13,
         software: 1,
-        item: 'Video Editor',
-        title: 'Final Cut Pro',
-        url: 'https://www.apple.com/final-cut-pro/'
-    },
-    {
-        id: 13,
-        software: 1,
-        item: 'Recording Software',
-        title: 'Quicktime Player',
-        url: 'https://en.wikipedia.org/wiki/QuickTime'
+        item: 'Prise vidéo',
+        title: 'OBS',
+        url: 'https://obsproject.com/fr'
     },
     {
         id: 14,
         software: 1,
         item: 'Terminal',
-        title: 'Mac Terminal',
-        url: 'https://en.wikipedia.org/wiki/Terminal_(macOS)'
+        title: 'Windows Powershell',
+        url: 'https://fr.wikipedia.org/wiki/Windows_PowerShell'
     },
     {
         id: 15,
         software: 1,
         item: 'Design/Mock Up',
-        title: 'Adobe XD',
-        url: 'https://www.adobe.com/products/xd.html?sdid=12B9F15S&mv=Search&ef_id=Cj0KCQjwoaz3BRDnARIsAF1RfLebpPiwGvU02nK5cu78XhsIYVvbd--v-Njgrx1attsEw7_tRR9F9c8aArmrEALw_wcB:G:s&s_kwcid=AL!3085!3!394015009822!e!!'
+        title: 'Figma',
+        url: 'https://www.figma.com/'
     },
     {
         id: 16,
-        software: 1,
-        item: 'Local DB',
-        title: 'TablePlus',
-        url: 'https://tableplus.com/'
-    },
-    {
-        id: 17,
         software: 2,
-        item: 'Camera',
-        title: 'Canon EOS m50',
-        url: 'https://amzn.to/2Ok9f1e'
-    },
-    {
-        id: 18,
-        software: 2,
-        item: 'Mic',
-        title: 'Blue Yeti USB Mic',
-        url: 'https://www.amazon.com/Blue-Yeti-USB-Microphone-Blackout/dp/B002VA464S/ref=sr_1_3?crid=6CJYFYCJ9ZP3&dchild=1&keywords=blue%2Byeti&qid=1604279275&sprefix=blue%2Bye%2Caps%2C192&sr=8-3&th=1'
-    },
-    {
-        id: 19,
-        software: 2,
-        item: 'Lights',
-        title: 'Neewer LED Lights',
-        url: 'https://amzn.to/3oUsMSj'
+        item: 'Microphone',
+        title: 'Bird UM1',
+        url: 'https://amzn.to/3gAiNAQ'
     }
 ]

@@ -75,25 +75,25 @@ const Navigation = () => {
                         Blog
                     </Button>
                 </NextLink>
-                <NextLink href="/projects" passHref>
+                <NextLink href="/projets" passHref>
                     <Button
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}
-                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/projects' ? navHoverBg[colorMode] : null}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/projets' ? navHoverBg[colorMode] : null}
                         aria-label="Projects"
                     >
                         Projets
                     </Button>
                 </NextLink>
-                <NextLink href="/gear" passHref>
+                <NextLink href="/outils" passHref>
                     <Button
                         as="a"
                         variant="ghost"
-                        p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/gear' ? navHoverBg[colorMode] : null}
+                        p={[1, 2, 4]} _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname === '/outils' ? navHoverBg[colorMode] : null}
                         aria-label="Gear"
                     >
-                        Équipements
+                        Outils
                     </Button>
                 </NextLink>
                 <NextLink href="/" passHref>

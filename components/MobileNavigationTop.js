@@ -76,7 +76,7 @@ const MobileNavigationTop = () => {
             <Text
                 visibility={visibility}
                 color={color[colorMode]}
-            >{router.pathname === '/' ? 'Home' : router.pathname.slice(1, 2).toUpperCase()}{router.pathname.slice(2).split('/')[0]}</Text>
+            >{router.pathname === '/' ? 'Accueil' : router.pathname.slice(1, 2).toUpperCase()}{router.pathname.slice(2).split('/')[0]}</Text>
             <DarkModeSwitch />
         </StickyNav >
     )

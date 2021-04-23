@@ -31,7 +31,7 @@ const ViewCounter = ({ id }) => {
         registerView()
     }, [id])
 
-    return `${views ? format(views) : '–––'} views`
+    return `${views ? format(views) : '–––'} vues`
 }
 
 export default ViewCounter

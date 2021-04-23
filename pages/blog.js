@@ -17,7 +17,7 @@ import { SearchIcon } from '@chakra-ui/icons'
 
 import { getAllFilesFrontMatter } from '../lib/mdx'
 
-const url = 'https://benjamincarlson.io/blog'
+const url = 'https://heysen.fr/blog'
 const title = 'Blog – Florian Heysen'
 const description = 'Personal blog for Benjamin Carlson. I write about computer science, web development, python automation, and more.'
 
@@ -69,19 +69,19 @@ export default function Blog({ posts }) {
                         minH="100vh"
                     >
                         <Heading letterSpacing="tight" as="h1" size="2xl" mb={6}>
-                            Blog ({posts.length} posts)
+                            Blog ({posts.length} articles)
                         </Heading>
                         <InputGroup mb={4} mr={4} w="100%">
                             <Input
-                                aria-label="Search by post title or summary"
+                                aria-label="Rechercher un titre ou un sujet"
                                 onChange={(e) => setSearchValue(e.target.value)}
-                                placeholder="Search by post title or summary"
+                                placeholder="Rechercher un titre ou un sujet"
                             />
                             <InputRightElement>
                                 <SearchIcon color="gray.300" />
                             </InputRightElement>
                         </InputGroup>
-                        {!filteredBlogPosts.length && 'No posts found.'}
+                        {!filteredBlogPosts.length && 'Aucun article trouvé.'}
                         {filteredBlogPosts.map((frontMatter) => (
                             <BlogPost key={frontMatter.title} {...frontMatter} />
                         ))}

@@ -7,7 +7,7 @@ import theme from '../styles/theme'
 export default class MyDocument extends NextDocument {
     render() {
         return (
-            <Html lang="en">
+            <Html lang="fr">
                 <Head>
                     {/* Google Adsense */}
                     <script data-ad-client="ca-pub-8586017200531248" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>

@@ -35,15 +35,12 @@ const GitHubSponsorCard = () => {
                         flexDirection="column"
                         mx={2}
                     >
-                        <Heading as="h3" size="md">
-                            Sponsor Benjamin Carlson on GitHub Sponsors
+                    <Heading as="h3" size="md">
+                            Florian Heysen
                     </Heading>
-                        <Text color={colorSecondary[colorMode]}>
-                            Hi 👋 I'm Benjamin Carlson, a college student studying computer science. I post weekly tutorial videos on my YouTube channel and build cool open source projects!
+                    <Text color={colorSecondary[colorMode]}>
+                        Bonjour 👋, je suis un étudiant en marketing digital. Je poste des vidéos hebdomadaires sur ma chaine YouTube et développe des projets open source.
                     </Text>
-                    </Flex>
-                    <Flex mt={[2, 0, 0]}>
-                        <iframe src="https://github.com/sponsors/bjcarlson42/button" title="Sponsor bjcarlson42" height="35" width="116" style={{ border: '0' }}></iframe>
                     </Flex>
                 </Flex>
             </Flex>

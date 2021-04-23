@@ -30,11 +30,11 @@ const TechStack = () => {
             <Heading letterSpacing="tight" mt={8} mb={2} size="lg" fontWeight={700} as="h2">
                 Tech Stack
             </Heading>
-            <Text color={colorSecondary[colorMode]} mb={4}>This websites tech stack.</Text>
+            <Text color={colorSecondary[colorMode]} mb={4}>Les technologies utilisées pour ce site web.</Text>
             <Table variant="simple">
                 <Thead>
                     <Tr>
-                        <Th>Name</Th>
+                        <Th>Nom</Th>
                         <Th>Route</Th>
                         <Th>Description</Th>
                     </Tr>
@@ -43,32 +43,32 @@ const TechStack = () => {
                     <Tr>
                         <Td><Link href="https://nextjs.org" color={linkColor[colorMode]} isExternal>Next JS</Link></Td>
                         <Td>n/a</Td>
-                        <Td>My JS framework for this website.</Td>
+                        <Td>Mon framework JS pour ce site Web.</Td>
                     </Tr>
                     <Tr>
                         <Td><Link href="https://chakra-ui.com" color={linkColor[colorMode]} isExternal>Chakra UI</Link></Td>
                         <Td>n/a</Td>
-                        <Td>My CSS framework for this website.</Td>
+                        <Td>Mon framework CSS pour ce site.</Td>
                     </Tr>
                     <Tr>
                         <Td>Blog</Td>
                         <Td>/blog/[slug].js</Td>
-                        <Td>I use <Link href="https://github.com/hashicorp/next-mdx-remote" color={linkColor[colorMode]} isExternal>next-mdx-remote</Link> pages for my blog posts.</Td>
+                        <Td>J'utilise <Link href="https://github.com/hashicorp/next-mdx-remote" color={linkColor[colorMode]} isExternal>next-mdx-remote</Link> pour mes articles de blog.</Td>
                     </Tr>
                     <Tr>
-                        <Td>Real-Time Statistics</Td>
+                        <Td>Statistiques en temps réel</Td>
                         <Td>/api/[].js</Td>
-                        <Td>Multiple api routes that fetch my real-time social media data using Next.JS <Link href="https://nextjs.org/docs/api-routes/introduction" color={linkColor[colorMode]} isExternal>serverless functions</Link>.</Td>
+                        <Td>Plusieurs routes d'API qui récupèrent mes données de médias sociaux en temps réel à l'aide de  <Link href="https://nextjs.org/docs/api-routes/introduction" color={linkColor[colorMode]} isExternal>serverless function</Link> de Next.JS.</Td>
                     </Tr>
                     <Tr>
-                        <Td>Realtime Blog Post View/Like Count</Td>
+                        <Td>Nombre de Vues/J'aime des articles de blog en temps réel</Td>
                         <Td>/api</Td>
-                        <Td>I use <Link href="https://firebase.google.com" color={linkColor[colorMode]} isExternal>Google's Firebase</Link> to store view and like counts for my blog posts.</Td>
+                        <Td>J'utilise <Link href="https://firebase.google.com" color={linkColor[colorMode]} isExternal>Firebase de Google</Link> pour stocker le nombre de vues et de mentions J'aime pour mes articles de blog.</Td>
                     </Tr>
                     <Tr>
                         <Td>Vercel</Td>
                         <Td>n/a</Td>
-                        <Td>I use <Link href="https://vercel.com" color={linkColor[colorMode]} isExternal>Vercel</Link> to deploy my app.</Td>
+                        <Td>J'utilise <Link href="https://vercel.com" color={linkColor[colorMode]} isExternal>Vercel</Link> pour déployer mon application.</Td>
                     </Tr>
                 </Tbody>
             </Table>

@@ -37,7 +37,7 @@ const ProjectItem = ({ name, desc, star_count, href, language }) => {
             onMouseOver={() => setOpacity(1)}
             onMouseLeave={() => setOpacity(0)}
         >
-            <Box w='100%' borderWidth="1px" border={`1px solid ${borderColor[colorMode]}`} rounded="md" p={2}>
+            <Box w={['100%', 670]} borderWidth="1px" border={`1px solid ${borderColor[colorMode]}`} rounded="md" p={2}>
                 <Flex justify="space-between">
                     <Flex align="center">
                         <Text as="h2" fontSize="xl" fontWeight="medium">{name}</Text>
@@ -66,13 +66,13 @@ const ProjectItem = ({ name, desc, star_count, href, language }) => {
 const ProjectListFull = () => {
     const [searchValue, setSearchValue] = useState('');
     const { data, error } = useSWR('/api/projects', fetcher)
-    if (error) return <div style={{ width: '100%' }}>Failed to load projects! Please check your internet connnection. If the error persists, contact me.</div>
+    if (error) return <div style={{ width: '100%' }}>Échec du chargement des projets. Veuillez vérifier votre connexion Internet. Si l'erreur persiste, contactez-moi.</div>
     if (!data) return (
         <div style={{ width: '100%' }}>
             <InputGroup mb={4} mr={4} w="100%">
                 <Input
-                    aria-label="Search by name, description, and language"
-                    placeholder="Search by name, description, and language"
+                    aria-label="Chercher par nom, description, ou langage."
+                    placeholder="Chercher par nom, description, ou langage."
                 />
                 <InputRightElement children={<SearchIcon color="gray.500" />} />
             </InputGroup>
@@ -85,9 +85,9 @@ const ProjectListFull = () => {
 
     const filteredProjects = Object(data.repos)
         .filter((project) =>
-            project.name.toLowerCase().includes(searchValue.toLowerCase())
-            || project.description.toLowerCase().includes(searchValue.toLowerCase())
-            || project.language?.toLowerCase().includes(searchValue.toLowerCase())
+            project.name
+            || project.description
+            || project.language
         )
         .sort(
             (a, b) =>
@@ -98,9 +98,9 @@ const ProjectListFull = () => {
         <>
             <InputGroup mb={4} mr={4} w="100%">
                 <Input
-                    aria-label="Search by name, description, and language"
+                    aria-label="Chercher par nom, description, ou langage."
                     onChange={(e) => setSearchValue(e.target.value)}
-                    placeholder="Search by name, description, and language"
+                    placeholder="Chercher par nom, description, ou langage."
                 />
                 <InputRightElement children={<SearchIcon color="gray.500" />} />
             </InputGroup>

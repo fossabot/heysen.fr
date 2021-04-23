@@ -70,22 +70,22 @@ export default function Videos({ vids }) {
                         px={4}
                     >
                         <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
-                            Videos
+                            Vidéos
                         </Heading>
                         <Text color={colorSecondary[colorMode]} mb={6}>
-                            Here are all of {vids.length} of my YouTube videos. Use the search bar below to filter by title or summary.
+                            Voici les  {vids.length} de mes vidéos YouTube. Utilisez la barre de recherche ci-dessous pour filtrer par titre ou résumé.
                         </Text>
                         <InputGroup mb={4} mr={4} w="100%">
                             <Input
-                                aria-label="Search by title"
+                                aria-label="Recherche par titre"
                                 onChange={(e) => setSearchValue(e.target.value)}
-                                placeholder="Search by title"
+                                placeholder="Recherche par titre"
                             />
                             <InputRightElement>
                                 <SearchIcon color="gray.300" />
                             </InputRightElement>
                         </InputGroup>
-                        {!filteredVideos.length && 'No videos found for that search!'}
+                        {!filteredVideos.length && 'Aucune vidéo trouvée pour cette recherche.'}
                         {filteredVideos.map((frontMatter) => (
                             <NextLink key={frontMatter.title} href={`videos/${frontMatter.slug}`} passHref>
                                 <Link w="100%" _hover={{ textDecoration: 'none' }}>

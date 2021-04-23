@@ -21,7 +21,7 @@ import BlogPost from '../components/blog/BlogPost'
 import Todo from '../components/Todo'
 import TechStack from '../components/TechStack'
 
-const url = 'https://benjamincarlson.io/'
+const url = 'https://heysen.fr/'
 const title = 'Accueil – Florian Heysen'
 const description = 'Developer, creator, writer, and student living and working in CT. Browse Ben\'s latest projects, experience, blog posts, and statistics.'
 
@@ -126,7 +126,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Mon dernier article
+              Article récent
             </Heading>
 
             <BlogPost
@@ -138,7 +138,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Top Blog Posts
+              Articles les plus populaires
             </Heading>
 
             <BlogPost
@@ -161,7 +161,7 @@ export default function Index() {
               <NextLink href="/blog" passHref>
                 <Link _hover="none">
                   <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all posts">
-                    View All Posts
+                    Voir tous les artciles
                   </Button>
                 </Link>
               </NextLink>
@@ -170,7 +170,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
-              Featured Projects
+            Projets en vedette
             </Heading>
             <FeaturedProjectCard
               title="25 Days Of Flutter"
@@ -200,10 +200,10 @@ export default function Index() {
               My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data.
             </FeaturedProjectCard>
             <Flex justify="center" width="100%">
-              <NextLink href="/projects" passHref>
+              <NextLink href="/projets" passHref>
                 <Link _hover="none" mt={8}>
                   <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all projects">
-                    View All Projects
+                    Voir tous les projets
                 </Button>
                 </Link>
               </NextLink>
@@ -221,8 +221,7 @@ export default function Index() {
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" display={['none', 'flex', 'flex']}/>
 
-            <Text mt={8}>Looks like you've made it to the end of this page... feel free to <Link href="https://youtube.com/benjamincarlson" isExternal color={linkColor[colorMode]}>check out my YouTube</Link> where
-            you can find even more programming content.
+            <Text mt={8}>On dirait que vous êtes arrivé à la fin de cette page... n'hésitez pas à consulter ma <Link href="https://www.youtube.com/channel/UCbMZRxWXhbROK6Y0A5aBZOQ" isExternal color={linkColor[colorMode]}>chaîne YouTube </Link>où vous pouvez trouver encore plus de contenu en tout genre.
             </Text>
 
           </Flex>

@@ -57,7 +57,7 @@ export default function BlogLayout({ children, frontMatter }) {
 
     return (
         <>
-            <Box h={1} as="div" bgGradient="linear(to-r, green.200, pink.500)" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
+            <Box h={1} as="div" bgGradient="linear(to-r, pink.400, pink.500)" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
             <Container>
                 <BlogSeo url={`https://benjamincarlson.io/blog${slug}`} {...frontMatter} />
                 <Stack
@@ -91,18 +91,18 @@ export default function BlogLayout({ children, frontMatter }) {
                             <Flex align="center">
                                 <Avatar
                                     size="xs"
-                                    name="Benjamin Carlson"
+                                    name="Florian Heysen"
                                     src="../images/portrait.jpeg"
                                     mr={2}
                                 />
                                 <Text fontSize="sm" color={textColor[colorMode]}>
                                     {frontMatter.by}
-                                    {'Benjamin Carlson / '}
+                                    {'Florian Heysen / '}
                                     {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
                                 </Text>
                             </Flex>
                             <Text fontSize="sm" color="gray.500" minWidth="100px" mt={[2, 0]}>
-                            {frontMatter.readingTime.text}
+                            {frontMatter.readingTime.text}  
                             {` • `}
                             <ViewCounter id={slug} />
                             {` • `}
@@ -115,12 +115,12 @@ export default function BlogLayout({ children, frontMatter }) {
                     <Box>
                         <Link href={tweetUrl(slug)} isExternal>
                             <Icon as={TwitterIcon} size="18px" mr={2} />
-                            {'Share on Twitter'}
+                            {'Partager sur Twitter'}
                         </Link>
                         {` • `}
                         <Link href={editUrl(slug)} isExternal>
                             <Icon as={GitHubIcon} size="18px" mr={2} />
-                            {'Edit on GitHub'}
+                            {'Modifier sur GitHub'}
                         </Link>
                     </Box>
                     <GitHubSponsorCard />

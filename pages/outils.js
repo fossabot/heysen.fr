@@ -18,7 +18,7 @@ import { FiArrowRight } from "react-icons/fi"
 import Container from '../components/Container'
 import GearList from '../components/GearList'
 
-const url = 'https://benjamincarlson.io/gear'
+const url = 'https://heysen.fr/outils'
 const title = 'Gear – Benjamin Carlson'
 const description = 'The gear I use for programming and productivity every day.'
 
@@ -59,11 +59,10 @@ const Gear = () => {
                         px={4}
                     >
                         <Heading letterSpacing="tight" mb={4} as="h1" size="2xl">
-                            Gear
+                            Outils
                         </Heading>
                         <Text color={colorSecondary[colorMode]} mb={2}>
-                            Productivity is directly associated with selecting the right software and hardware. Here is a list of all the gear I use on a day to day basis.
-                            If you purchase any items through the links below I may earn a small commission.
+                            La productivité est directement associée à ma sélection logicielle et matérielle. Voici une liste de tous les équipements que j'utilise au quotidien.
                         </Text>
                         <GearList />
                     </Flex>

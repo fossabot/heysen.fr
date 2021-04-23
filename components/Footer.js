@@ -17,7 +17,7 @@ export const Footer = () => {
     return (
         <Flex align="center" mb={4} direction="column" visibility={'hidden', 'visible', 'visible'} display={['none', 'flex', 'flex']}>
             <div>
-                <Link href="https://twitter.com/bjmncrlsn" title="Twitter" isExternal>
+                <Link href="https://twitter.com/florianheysen" title="Twitter" isExternal>
                     <IconButton
                         aria-label="Twitter"
                         icon={<FiTwitter />}
@@ -27,7 +27,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link href="https://github.com/bjcarlson42" title="GitHub" isExternal>
+                <Link href="https://github.com/florianheysen" title="GitHub" isExternal>
                     <IconButton
                         aria-label="GitHub"
                         icon={<FiGithub />}
@@ -38,7 +38,7 @@ export const Footer = () => {
                     />
                 </Link>
                 <Link
-                    href="https://www.linkedin.com/in/bjcarlson42"
+                    href="https://www.linkedin.com/in/florianheysen"
                     title="LinkedIn"
                     isExternal
                 >
@@ -52,7 +52,7 @@ export const Footer = () => {
                     />
                 </Link>
                 <Link
-                    href="https://www.youtube.com/benjamincarlson"
+                    href="https://www.youtube.com/channel/UCbMZRxWXhbROK6Y0A5aBZOQ"
                     title="YouTube"
                     isExternal
                 >
@@ -65,7 +65,7 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link href="mailto:bjcarlson42@gmail.com" title="Email" isExternal>
+                <Link href="mailto:heysen.florian@gmail.com" title="Email" isExternal>
                     <IconButton
                         aria-label="Email"
                         icon={<FiMail />}
@@ -77,15 +77,15 @@ export const Footer = () => {
                 </Link>
             </div>
             <div>
-                <NextLink href="/hello" passHref>
+                <NextLink href="/bonjour" passHref>
                     <Link
                         fontSize="md"
                         color="gray.500"
                         minWidth="100px"
                         mr={2}
-                        title="Hello"
+                        title="Bonjour"
                     >
-                        /hello
+                        /bonjour
                     </Link>
                 </NextLink>
                 <NextLink href="/videos" passHref>

@@ -14,9 +14,9 @@ import SocialLink from '../components/SocialLink'
 import Container from '../components/Container'
 import { TwitterIcon, YoutubeIcon, GitHubIcon, MailIcon, CodeIcon } from '../components/CustomIcons'
 
-const url = 'https://benjamincarlson.io/hello'
+const url = 'https://heysen.fr/bonjour'
 const titleSEO = 'Bonjour! – Florian Heysen'
-const description = 'I am a developer and creator. Here are some of my links.'
+const description = 'Je suis un étudiant et un développeur. Voilà quelques-uns de mes liens.'
 
 const Hello = () => {
 
@@ -63,14 +63,12 @@ const Hello = () => {
                         <Heading letterSpacing="tight" mb={4} as="h1" size="xl" alignSelf="center">
                             Bonjour 👋, moi c'est Florian
                         </Heading>
-                        <Text alignSelf="center" textAlign="center" mb={4}>I’m a developer, writer, creator, and student. Use the links below to learn more.</Text>
-                        <SocialLink name={title} href={vid_url} icon={YoutubeIcon} />
-                        <SocialLink name="Check Out My Website!" href="/" icon={CodeIcon} />
-                        <SocialLink name="View My Opensource Code!" href="https://github.com/bjcarlson42?tab=repositories" icon={GitHubIcon} />
+                        <Text alignSelf="center" textAlign="center" mb={4}>Je suis étudiant, créateur et développeur. Utilisez les liens ci-dessous pour en savoir plus.</Text>
+                        <SocialLink name="Consulter mon site Web" href="/" icon={CodeIcon} />
+                        <SocialLink name="Voir mon code OpenSource" href="https://github.com/florianheysen?tab=repositories" icon={GitHubIcon} />
                         {/* <SocialLink name="Subscribe to my newsletter" href="https://buttondown.email/benjamincarlson" icon={MailIcon} /> */}
-                        <SocialLink name="Sponsor me on GitHub!" href="https://github.com/sponsors/bjcarlson42" icon={GitHubIcon} />
-                        <SocialLink name="Subscribe To My YouTube Channel!" href="https://www.youtube.com/channel/UCLMdmCCRFGWt7rktx6tMErw?sub_confirmation=1" icon={YoutubeIcon} />
-                        <SocialLink name="Follow Me On Twitter!" href="https://twitter.com/bjmncrlsn" icon={TwitterIcon} />
+                        <SocialLink name="Découvrir ma chaîne YouTube" href="https://www.youtube.com/channel/UCLMdmCCRFGWt7rktx6tMErw?sub_confirmation=1" icon={YoutubeIcon} />
+                        <SocialLink name="Me suivre sur Twitter" href="https://twitter.com/florianheysen" icon={TwitterIcon} />
                     </Flex>
                 </Stack>
             </Container>

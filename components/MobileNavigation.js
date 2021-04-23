@@ -55,14 +55,14 @@ const MobileNavigation = () => {
                     Blog
                 </Button>
             </NextLink>
-            <NextLink href="/projects" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projects' ? navActiveBg[colorMode] : null}>
+            <NextLink href="/projets" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projets' ? navActiveBg[colorMode] : null}>
                     Projets
                 </Button>
             </NextLink>
-            <NextLink href="/gear" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/gear' ? navActiveBg[colorMode] : null}>
-                    Équipements
+            <NextLink href="/outils" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/outils' ? navActiveBg[colorMode] : null}>
+                    Outils
                 </Button>
             </NextLink>
             <NextLink href="/" passHref>
