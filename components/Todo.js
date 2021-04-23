@@ -38,7 +38,7 @@ const Todo = () => {
 
     return (
         <Stack spacing={4} w="100%">
-            <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">Liste "À faire"</Heading>
+            <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">Ma To-do list</Heading>
             <Text>Voici une liste de choses que je prévois d'apprendre de mon temps libre au cours des 6 prochains mois.</Text>
             <InputGroup size="md" mt={4} borderColor="gray.500" borderColor={borderColor[colorMode]}>
                 <Input

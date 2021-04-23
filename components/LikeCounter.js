@@ -46,14 +46,14 @@ const LikeCounter = ({ id }) => {
             setLiked(true)
             setColor('yellow.500')
             toast({
-                title: "Thanks for liking!",
+                title: "Merci pour le like!",
                 status: "success",
                 duration: 3000,
                 isClosable: true,
             })
         } else {
             toast({
-                title: "Already Liked!",
+                title: "Vous avez déjà liké ce post",
                 status: "error",
                 duration: 3000,
                 isClosable: true,

@@ -77,7 +77,7 @@ export default function Index() {
               as="h1"
               size="xl"
             >
-              Bonjour, je suis Florian Heysen, développeur et étudiant basé à Lille.
+              Bonjour, je suis Florian Heysen, étudiant et développeur basé à Roubaix & Lille.
             </Heading>
             <Text
               color={colorSecondary[colorMode]}

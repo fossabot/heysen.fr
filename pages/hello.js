@@ -15,7 +15,7 @@ import Container from '../components/Container'
 import { TwitterIcon, YoutubeIcon, GitHubIcon, MailIcon, CodeIcon } from '../components/CustomIcons'
 
 const url = 'https://benjamincarlson.io/hello'
-const titleSEO = 'Hello – Benjamin Carlson'
+const titleSEO = 'Bonjour! – Florian Heysen'
 const description = 'I am a developer and creator. Here are some of my links.'
 
 const Hello = () => {
@@ -61,7 +61,7 @@ const Hello = () => {
                             my={5}
                         />
                         <Heading letterSpacing="tight" mb={4} as="h1" size="xl" alignSelf="center">
-                            Hello 👋, I'm Ben
+                            Bonjour 👋, moi c'est Florian
                         </Heading>
                         <Text alignSelf="center" textAlign="center" mb={4}>I’m a developer, writer, creator, and student. Use the links below to learn more.</Text>
                         <SocialLink name={title} href={vid_url} icon={YoutubeIcon} />
