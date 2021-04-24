@@ -130,9 +130,9 @@ export default function Index() {
             </Heading>
 
             <BlogPost
-              title="UseEffect In Next.JS - React Hooks"
-              summary="Learn what useEffect is learn how to use useEffect in Next.JS."
-              slug="using-react-useeffect"
+              title="Identité visuelle : l’image et ses enjeux"
+              summary="L’identité visuelle est inévitablement la base d’une marque forte. Zoom sur cet aspect fondamental de la création d’entreprise et de site web !"
+              slug="identite-visuelle"
             />
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
@@ -142,19 +142,14 @@ export default function Index() {
             </Heading>
 
             <BlogPost
-              title="How Tik Tok Gave Me The Perfect Coding Side Project"
-              summary="I got an idea for a weekend coding project from Tik Tok."
+              title="Identité visuelle : l’image et ses enjeux"
+              summary="L’identité visuelle est inévitablement la base d’une marque forte. Zoom sur cet aspect fondamental de la création d’entreprise et de site web !"
               slug="tik-tok-coding-idea"
             />
             <BlogPost
-              title="Add A Firebase Backend To Your Flutter App Fast!"
-              summary="Learn how to integrate Google's Firebase into your Flutter App."
-              slug="connect-flutter-to-firebase"
-            />
-            <BlogPost
-              title="Using JavaScript To Scramble A Rubik’s Cube: An Improved Algorithm"
-              summary="I am making a web app that required me to make a rubiks cube scramble. I will show you how to implement this algorithm in JavaScript."
-              slug="using-javascript-to-scramble-a-rubiks-cube-2"
+              title="Quelle était la tendance webdesign en 2018 ?"
+              summary="Les sites web sont en constante évolution et 2018 a fait partie des grands changements dans la tendance webdesign."
+              slug="tendance-webdesign-2018"
             />
 
             <Flex justify="center" width="100%">
@@ -173,31 +168,31 @@ export default function Index() {
             Projets en vedette
             </Heading>
             <FeaturedProjectCard
-              title="25 Days Of Flutter"
-              href="https://flutter25.com"
-              src="/images/flutter25.png"
-              alt='Flutter 25 logo'
+              title="Overdo.net"
+              href="https://overdo.net"
+              src="/images/overdo.png"
+              alt='Logo overdo'
               color={iconColor[colorMode]}
             >
-              25 Days Of Flutter is a 25 day tutorial series designed to take you from a Flutter beginner to coding a complete app using various modern technologies.
+              Overdo.net est le site web de mon projet d'infogérance cloud. Passionné de système et réseau, le cloud apparait comme la solution de demain pour les entreprises de toutes tailles.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
-              title="Word Of The Day App"
-              href="https://github.com/bjcarlson42/wotd"
-              src="/images/wotd.png"
-              alt='Word Of The Day logo'
+              title="Akio studio"
+              href="https://akio.studio/"
+              src="/images/akio.png"
+              alt='Logo akio'
               color={iconColor[colorMode]}
             >
-              Word of the day app built with <Code>Dart</Code>, <Code>Flutter</Code>, and <Code>Wordnik API</Code>. Video tutorial posted on YouTube.
+              Jeune studio basé à Roubaix qui a pour but d'améliorer l'accessibilité digitale dans le monde du web. Ce site est développé avec <Code>NextJS</Code>, <Code>Strapi</Code> et <Code>Chakra-ui</Code>.
             </ FeaturedProjectCard>
             <FeaturedProjectCard
-              title="Personal Website"
-              href="https://github.com/bjcarlson42/benjamincarlson.io"
+              title="Site personnel"
+              href="https://github.com/florianheysen/personal"
               src="/images/logo.png"
               alt='Personal website logo'
               color={iconColor[colorMode]}
             >
-              My personal portfolio website you are on now. Built with <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> pages, and serverless functions for realtime data.
+              Mon site Web personnel sur lequel vous vous trouvez maintenant. Construit avec le générateur de site statique <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> et des serverless functions pour les données en temps réel.
             </FeaturedProjectCard>
             <Flex justify="center" width="100%">
               <NextLink href="/projets" passHref>

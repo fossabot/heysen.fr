@@ -24,7 +24,7 @@ export default function VideoLayout({ children, frontMatter }) {
     const slug = router.asPath.replace('/videos', '');
     return (
         <Container>
-            <BlogSeo url={`https://benjamincarlson.io/videos/${slug}`} {...frontMatter} />
+            <BlogSeo url={`https://heysen.fr/videos/${slug}`} {...frontMatter} />
             <Stack
                 as="article"
                 spacing={8}
@@ -62,7 +62,7 @@ export default function VideoLayout({ children, frontMatter }) {
                             />
                             <Text fontSize="sm" color={textColor[colorMode]}>
                                 {frontMatter.by}
-                                {'Benjamin Carlson / '}
+                                {'Florian Heysen / '}
                                 {format(parseISO(frontMatter.publishedAt), 'MMMM dd, yyyy')}
                             </Text>
                         </Flex>

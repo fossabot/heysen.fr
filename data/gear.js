@@ -30,82 +30,89 @@ export const gear = [
     {
         id: 5,
         software: 0,
+        item: 'Souris',
+        title: 'Razer Mamba Chroma',
+        url: 'https://amzn.to/3dKmguR'
+    },
+    {
+        id: 6,
+        software: 0,
         item: 'Headphone',
         title: 'SteelSeries Arctis 1',
         url: 'https://amzn.to/3nhYWb5'
     },
     {
-        id: 6,
+        id:7,
         software: 0,
         item: 'Earbuds',
         title: 'Apple Airpods 2',
         url: 'https://apple.co/2QTxPH2'
     },
     {
-        id: 7,
+        id: 8,
         software: 1,
         item: 'IDE',
         title: 'Visual Studio Code',
         url: 'https://code.visualstudio.com/'
     },
     {
-        id: 8,
+        id: 9,
         software: 1,
         item: 'API Tester',
         title: 'Postman',
         url: 'https://www.postman.com/'
     },
     {
-        id: 9,
+        id: 10,
         software: 1,
         item: 'Navigateur',
         title: 'Google Chrome',
         url: 'https://www.google.com/chrome/?brand=CHBD&gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLeDnQ1L1pND8ts1snJ2A5wNIul7CrvgKWxOhNmGrfabyt_PkyixYIAaAsvJEALw_wcB&gclsrc=aw.ds'
     },
     {
-        id: 10,
+        id: 11,
         software: 1,
         item: 'Simulateur iPhone',
         title: 'XCode',
         url: 'https://apps.apple.com/us/app/xcode/id497799835?mt=12'
     },
     {
-        id: 11,
+        id: 12,
         software: 1,
         item: 'Simulateur Android',
         title: 'Android Studio',
         url: 'https://developer.android.com/studio/?gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLdlLYJYU8qNSzIcvluTDWbziHdDle1QrR1ntM1J0T8XsZ6sUFG9B4saAmhrEALw_wcB&gclsrc=aw.ds'
     },
     {
-        id: 12,
+        id: 13,
         software: 1,
         item: 'Montage vidéo',
         title: 'Adobe Premiere Pro',
         url: 'https://www.adobe.com/fr/products/premiere.html'
     },
     {
-        id: 13,
+        id: 14,
         software: 1,
         item: 'Prise vidéo',
         title: 'OBS',
         url: 'https://obsproject.com/fr'
     },
     {
-        id: 14,
+        id: 15,
         software: 1,
         item: 'Terminal',
         title: 'Windows Powershell',
         url: 'https://fr.wikipedia.org/wiki/Windows_PowerShell'
     },
     {
-        id: 15,
+        id: 16,
         software: 1,
         item: 'Design/Mock Up',
         title: 'Figma',
         url: 'https://www.figma.com/'
     },
     {
-        id: 16,
+        id: 17,
         software: 2,
         item: 'Microphone',
         title: 'Bird UM1',
