@@ -23,9 +23,9 @@ import GitHubSponsorCard from '../components/GitHubSponsorCard'
 import Comments from '../components/blog/Comments'
 
 const editUrl = (slug) =>
-    `https://github.com/bjcarlson42/benjamincarlson.io/edit/main/pages/blog${slug}.mdx`
+    `https://github.com/florianheysen/personal/edit/main/pages/blog${slug}.mdx`
 const tweetUrl = (slug) =>
-    `https://twitter.com/intent/tweet?text=https://benjamincarlson.io/blog${slug} by @bjmncrlsn`
+    `https://twitter.com/intent/tweet?text=https://heysen.fr/blog${slug} par @florianheysen`
 
 export default function BlogLayout({ children, frontMatter }) {
     const { colorMode } = useColorMode()
@@ -59,7 +59,7 @@ export default function BlogLayout({ children, frontMatter }) {
         <>
             <Box h={1} as="div" bgGradient="linear(to-r, pink.400, pink.500)" position="sticky" top={0} zIndex={100} w={`${width}%`}></Box>
             <Container>
-                <BlogSeo url={`https://benjamincarlson.io/blog${slug}`} {...frontMatter} />
+                <BlogSeo url={`https://heysen.fr/blog${slug}`} {...frontMatter} />
                 <Stack
                     as="article"
                     spacing={8}

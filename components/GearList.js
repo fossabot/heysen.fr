@@ -38,7 +38,7 @@ const GearList = () => {
         dark: 'white'
     }
 
-    if (error) return <div>Error loading gear!</div>
+    if (error) return <div>Erreur durant le chargement.</div>
     if (!data) return <CircularProgress isIndeterminate color={color[colorMode]}></CircularProgress>
 
     var software = data.filter(function (g) {
@@ -49,9 +49,9 @@ const GearList = () => {
         return g.software == 0
     })
 
-    var cameraGear = data.filter(function (g) {
+    /*var cameraGear = data.filter(function (g) {
         return g.software == 2
-    })
+    })*/
 
     return (
         <>
