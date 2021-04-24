@@ -66,7 +66,7 @@ const Hello = () => {
                         <Text alignSelf="center" textAlign="center" mb={4}>Je suis étudiant, créateur et développeur. Utilisez les liens ci-dessous pour en savoir plus.</Text>
                         <SocialLink name="Consulter mon site Web" href="/" icon={CodeIcon} />
                         <SocialLink name="Voir mon code OpenSource" href="https://github.com/florianheysen?tab=repositories" icon={GitHubIcon} />
-                        {/* <SocialLink name="Subscribe to my newsletter" href="https://buttondown.email/benjamincarlson" icon={MailIcon} /> */}
+                        <SocialLink name="Je souhaite être recontacté(e)" href="https://buttondown.email/florianheysen" icon={MailIcon} />
                         <SocialLink name="Découvrir ma chaîne YouTube" href="https://www.youtube.com/channel/UCLMdmCCRFGWt7rktx6tMErw?sub_confirmation=1" icon={YoutubeIcon} />
                         <SocialLink name="Me suivre sur Twitter" href="https://twitter.com/florianheysen" icon={TwitterIcon} />
                     </Flex>

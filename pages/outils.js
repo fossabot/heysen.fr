@@ -19,7 +19,7 @@ import Container from '../components/Container'
 import GearList from '../components/GearList'
 
 const url = 'https://heysen.fr/outils'
-const title = 'Gear – Benjamin Carlson'
+const title = 'Outils – Florian Heysen'
 const description = 'The gear I use for programming and productivity every day.'
 
 const Gear = () => {
