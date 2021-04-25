@@ -19,7 +19,7 @@ import { getAllFilesFrontMatter } from '../lib/mdx'
 
 const url = 'https://heysen.fr/blog'
 const title = 'Blog – Florian Heysen'
-const description = 'Personal blog for Benjamin Carlson. I write about computer science, web development, python automation, and more.'
+const description = ''
 
 export default function Blog({ posts }) {
     const [searchValue, setSearchValue] = useState('')

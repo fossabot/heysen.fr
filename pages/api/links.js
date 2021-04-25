@@ -1,6 +1,6 @@
 export default async (req, res) => {
     var key = process.env.YOUTUBE_KEY
-    var channel_id = 'UCLMdmCCRFGWt7rktx6tMErw'
+    var channel_id = 'UCbMZRxWXhbROK6Y0A5aBZOQ'
     const response = await fetch('https://www.googleapis.com/youtube/v3/search?key=' + key + '&channelId=' + channel_id + '&part=snippet,id&order=date&maxResults=1')
     const json = await response.json()
     const title = json.items[0].snippet.title
