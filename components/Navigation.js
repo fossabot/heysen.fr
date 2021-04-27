@@ -52,18 +52,18 @@ const Navigation = () => {
         >
             <DarkModeSwitch />
             <Box>
-                {/*<NextLink href="/statistics" passHref>
+                <NextLink href="/stats" passHref>
                     <Button
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}
                         _hover={{ backgroundColor: navHoverBg[colorMode] }}
-                        backgroundColor={router.pathname === '/statistics' ? navHoverBg[colorMode] : null}
-                        aria-label="Statistics"
+                        backgroundColor={router.pathname === '/stats' ? navHoverBg[colorMode] : null}
+                        aria-label="Stats"
                     >
                         Stats
                     </Button>
-                </NextLink>*/}
+                </NextLink>
                 <NextLink href="/blog" passHref>
                     <Button
                         as="a"

@@ -45,11 +45,11 @@ const MobileNavigation = () => {
             mx="auto"
             display={['flex', 'none', 'none']}
         >
-            {/*<NextLink href="/statistics" passHref>
+            <NextLink href="/stats" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/statistics' ? navActiveBg[colorMode] : null}>
                     Stats
                 </Button>
-            </NextLink>*/}
+            </NextLink>
             <NextLink href="/blog" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname.includes('/blog') ? navActiveBg[colorMode] : null}>
                     Blog
