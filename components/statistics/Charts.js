@@ -100,20 +100,20 @@ const Charts = ({ langData, repoData }) => {
         if (langData.length && repoData.length) {
             initLangChart();
             initStarChart();
-            initThirdChart();
+            {/*initThirdChart();*/}
         }
     }, []);
 
     const chartSize = 300;
     const langChartError = !(langChartData && langChartData.length > 0);
     const starChartError = !(starChartData && starChartData.length > 0);
-    const thirdChartError = !(thirdChartData && thirdChartData.length > 0);
+    {/*const thirdChartError = !(thirdChartData && thirdChartData.length > 0);*/}
 
     return (
         <SimpleGrid columns={[1, 1, 2]} w="100%">
             <div className="chart">
                 <header>
-                    <h2 style={{ textAlign: 'center' }}>Top Languages</h2>
+                    <h2 style={{ textAlign: 'center' }}>Languages les plus utilisés</h2>
                 </header>
 
                 <div className="chart-container">
@@ -124,7 +124,7 @@ const Charts = ({ langData, repoData }) => {
 
             <div className="chart">
                 <header>
-                    <h2 style={{ textAlign: 'center' }}>Most Starred</h2>
+                    <h2 style={{ textAlign: 'center' }}>Les plus appréciés</h2>
                 </header>
                 <div className="chart-container">
                     {starChartError && <p>Nothing to see here!</p>}
@@ -132,7 +132,7 @@ const Charts = ({ langData, repoData }) => {
                 </div>
             </div>
 
-            <div className="chart">
+            {/*<div className="chart">
                 <header>
                     <h2 style={{ textAlign: 'center' }}>Stars per Language</h2>
                 </header>
@@ -140,7 +140,7 @@ const Charts = ({ langData, repoData }) => {
                     {thirdChartError && <p>Nothing to see here!</p>}
                     <canvas id="thirdChart" width={chartSize} height={chartSize} />
                 </div>
-            </div>
+            </div>*/}
         </ SimpleGrid>
     );
 };

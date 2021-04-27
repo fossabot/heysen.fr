@@ -18,8 +18,8 @@ import StravaData from '../components/StravaData'
 import Repos from '../components/statistics/Repos'
 import Charts from '../components/statistics/Charts'
 
-const url = 'https://benjamincarlson.io/statistics'
-const title = 'Statistics – Benjamin Carlson'
+const url = 'https://heysen.fr/stats'
+const title = 'Statistics – Florian Heysen'
 const description = 'My personal dashboard. I use it to keep track of various stats such as YouTube, GitHub, Strava and more.'
 
 const Statistics = () => {
@@ -116,11 +116,10 @@ const Statistics = () => {
                     <SimpleGrid columns={[1, 2, 3]} w="100%">
                         <YouTubeData />
                         <GitHubData />
-                        <StravaData />
+                        {/*<StravaData />*/}
                     </SimpleGrid>
                     {/* <Text mt={2} fontSize="12px" color={colorSecondary[colorMode]}>Increase and decrease values are compared to the previous week (Monday 12am EST is the start of a new week) and are in the same unit as the statistic.</Text> */}
                     {langData && repoData && <Charts langData={langData} repoData={repoData} />}
-                    {/* {repoData && <Repos repoData={repoData} />} */}
                 </Stack>
             </Container>
         </>
