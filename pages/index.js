@@ -23,7 +23,7 @@ import TechStack from '../components/TechStack'
 
 const url = 'https://heysen.fr/'
 const title = 'Accueil – Florian Heysen'
-const description = 'Developer, creator, writer, and student living and working in CT. Browse Ben\'s latest projects, experience, blog posts, and statistics.'
+const description = ''
 
 export default function Index() {
   const { colorMode } = useColorMode()
