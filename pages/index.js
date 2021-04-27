@@ -144,7 +144,7 @@ export default function Index() {
             <BlogPost
               title="Identité visuelle : l’image et ses enjeux"
               summary="L’identité visuelle est inévitablement la base d’une marque forte. Zoom sur cet aspect fondamental de la création d’entreprise et de site web !"
-              slug="tik-tok-coding-idea"
+              slug="identite-visuelle"
             />
             <BlogPost
               title="Quelle était la tendance webdesign en 2018 ?"
