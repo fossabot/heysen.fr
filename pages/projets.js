@@ -1,7 +1,7 @@
 import React from 'react'
 import { NextSeo } from 'next-seo'
 import {
-    Link,
+    Icon,
     Text,
     Stack,
     Flex,
@@ -13,7 +13,7 @@ import {
 import Container from '../components/Container'
 import ProjectListFull from '../components/ProjectListFull'
 import FeaturedProjectCard from '../components/FeaturedProjectCard'
-import GitHubSponsorCard from '../components/GitHubSponsorCard'
+import { GrGithub } from "react-icons/gr"
 
 const url = 'https://heysen.fr/projets'
 const title = 'Projets – Florian Heysen'
@@ -69,13 +69,13 @@ const Projects = () => {
                             Projets en cours
                         </Heading>
                         <FeaturedProjectCard
-                            title="Overdo.net"
-                            href="https://overdo.net"
-                            src="/images/overdo.png"
-                            alt='Logo overdo'
+                            title="FireChat"
+                            href="https://firechat.pages.dev/"
+                            src="/images/firechat.png"
+                            alt='Logo firechat'
                             color={iconColor[colorMode]}
                         >
-                            Overdo.net est le site web de mon projet d'infogérance cloud. Passionné de système et réseau, le cloud apparait comme la solution de demain pour les entreprises de toutes tailles.
+                            FireChat est un projet mettant en avant les outils de<Code>Firebase</Code> afin de construire un espace de discussion. <Code>Firebase Auth</Code>, <Code>Firestore</Code>, <Code>Chakra UI</Code>
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
                             title="Akio studio"
@@ -95,8 +95,8 @@ const Projects = () => {
                         >
                             Mon site Web personnel sur lequel vous vous trouvez maintenant. Construit avec le générateur de site statique <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> et des serverless functions pour les données en temps réel.
                         </FeaturedProjectCard>
-                        <Heading letterSpacing="tight" as="h2" mb={2} mt={4} size="xl" fontWeight={700}>
-                            Projets publics
+                        <Heading letterSpacing="tight" as="h2" mb={4} mt={8} size="xl" fontWeight={700}>
+                            <Flex align="center">Projets publics &nbsp;<GrGithub size="32px" color={colorSecondary[colorMode]} /></Flex>
                         </Heading>
                         <ProjectListFull />
                     </Flex>

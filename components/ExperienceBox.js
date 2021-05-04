@@ -21,7 +21,7 @@ const ExperienceBox = ({ name, years, pos, badge_1, badge_2, children }) => {
         dark: 'gray.600'
     }
     const boxShadowColor = {
-        light: '0px 8px 26px rgba(0, 0, 0, 0.1)',
+        light: '0px 8px 26px rgba(0, 0, 0, 0.05)',
         dark: '0px 8px 26px rgba(0, 0, 0, 0.9)'
     }
 

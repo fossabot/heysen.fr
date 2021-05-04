@@ -15,8 +15,8 @@ const StickyNav = styled(Flex)`
   position: sticky;
   z-index: 10;
   top: 0;
-  backdrop-filter: saturate(180%) blur(20px);
   transition: height .5s, line-height .5s;
+  backdrop-filter: saturate(180%) blur(9px);
 `
 
 const Navigation = () => {
@@ -41,10 +41,9 @@ const Navigation = () => {
             maxWidth="800px"
             minWidth="356px"
             width="100%"
-            bg={bgColor[colorMode]}
             as="nav"
             px={6}
-            py={2}
+            py={6}
             mt={8}
             mb={[null, 0, 8]}
             mx="auto"
@@ -65,6 +64,7 @@ const Navigation = () => {
                 </NextLink>
                 <NextLink href="/projets" passHref>
                     <Button
+                        mx="2"
                         as="a"
                         variant="ghost"
                         p={[1, 2, 4]}

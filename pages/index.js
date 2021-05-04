@@ -10,7 +10,8 @@ import {
   Link,
   Code,
   Button,
-  Divider
+  Divider,
+  Box
 } from '@chakra-ui/react'
 
 import Container from '../components/Container'
@@ -75,15 +76,15 @@ export default function Index() {
               letterSpacing="tight"
               mb={4}
               as="h1"
-              size="xl"
+              size="2xl"
             >
               Bonjour 👋 moi c'est Florian
             </Heading>
-            <Text fontSize="lg" color={colorSecondary[colorMode]}>
-              Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu'assitant chargé marketing digital et vous avez trouvé ma contribution personnelle d'internet.
+            <Text fontSize="xl" color={colorSecondary[colorMode]}>
+              Je suis étudiant, développeur et créatif. Je travaille à <span className={colorMode === 'dark' ? 'svglogo-light' : 'svglogo-dark'}>O2feel</span> en tant qu'assistant responsable marketing digital et vous avez trouvé ma petite contribution personnelle au web en venant sur mon site.
             </Text>
 
-            <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
+            <Heading letterSpacing="tight" mt={10} size="lg" fontWeight={700} as="h2">
               Expériences pro
             </Heading>
             <ExperienceBox
@@ -116,7 +117,7 @@ export default function Index() {
 
             <Todo />
 
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" />
+            {/*<Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
               Article récent
@@ -126,7 +127,7 @@ export default function Index() {
               title="Identité visuelle : l’image et ses enjeux"
               summary="L’identité visuelle est inévitablement la base d’une marque forte. Zoom sur cet aspect fondamental de la création d’entreprise et de site web !"
               slug="identite-visuelle"
-            />
+            />*/}
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
@@ -149,7 +150,7 @@ export default function Index() {
               <NextLink href="/blog" passHref>
                 <Link _hover="none">
                   <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all posts">
-                    Voir tous les artciles
+                    Voir tous mes artciles
                   </Button>
                 </Link>
               </NextLink>
@@ -191,7 +192,7 @@ export default function Index() {
               <NextLink href="/projets" passHref>
                 <Link _hover="none" mt={8}>
                   <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all projects">
-                    Voir tous les projets
+                    Voir tous mes projets
                 </Button>
                 </Link>
               </NextLink>
