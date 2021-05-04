@@ -47,7 +47,7 @@ const Todo = () => {
             <InputGroup size="md" mt={4} borderColor="gray.500" borderColor={borderColor[colorMode]}>
                 <Input
                     aria-label="Ajouter une idée"
-                    placeholder="Apprendre Python"
+                    placeholder="Créer un bot avec Pyton"
                     value={todo}
                     onChange={e => setTodo(e.target.value)}
                 />
