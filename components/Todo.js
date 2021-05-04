@@ -30,7 +30,11 @@ const Todo = () => {
         dark: 'gray.600'
     }
 
-    const [todos, setTodos] = useState(['Maîtriser NextJS', 'Tester différents Headless CMS', 'Sécurité système et réseaux'])
+    const [todos, setTodos] = useState([
+        'Développer un projet concret NextJS',
+        'Approfondir mes connaissances React.js',
+        'Veille et comparatif de Headless CMS'
+    ])
     const [todo, setTodo] = useState('')
     const removeTodo = todo => {
         setTodos(todos.filter(t => t !== todo))

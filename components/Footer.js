@@ -2,6 +2,7 @@ import React from 'react'
 import NextLink from 'next/link'
 import { Flex, Link, IconButton, useColorMode } from '@chakra-ui/react'
 import { FiGithub, FiTwitter, FiLinkedin, FiYoutube, FiMail } from "react-icons/fi"
+import NowPlaying from '../components/NowPlaying';
 
 export const Footer = () => {
 
@@ -16,6 +17,7 @@ export const Footer = () => {
     }
     return (
         <Flex align="center" mb={4} direction="column" visibility={'hidden', 'visible', 'visible'} display={['none', 'flex', 'flex']}>
+            <NowPlaying />
             <div>
                 <Link href="https://twitter.com/florianheysen" title="Twitter" isExternal>
                     <IconButton

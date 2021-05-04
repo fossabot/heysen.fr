@@ -77,21 +77,14 @@ export default function Index() {
               as="h1"
               size="xl"
             >
-              Bonjour, je suis Florian Heysen, étudiant et développeur basé à Roubaix & Lille.
+              Bonjour 👋 moi c'est Florian
             </Heading>
-            <Text
-              color={colorSecondary[colorMode]}
-            >
-              Après un DUT et une Licence en développement web, je vais
-            aujourd'hui à l'<Link href="https://www.iseg.fr/" color={linkColor[colorMode]} isExternal>ISEG</Link> où j'y apprends les ficelles du marketing digital. Mon site personnel
-            est l'endroit où je présente mes projets, mes écrits ou encore mon
-            expérience. Il sert également de bac à sable pour jouer avec les
-            nouvelles technologies ! N'hésitez pas à me contacter par <Link href="mailto:bjcarlson42@gmail.com" color={linkColor[colorMode]}>mail</Link> ou
-            sur un autre réseau social pour toute question.
+            <Text fontSize="lg" color={colorSecondary[colorMode]}>
+              Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu'assitant chargé marketing digital et vous avez trouvé ma contribution personnelle d'internet.
             </Text>
 
             <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
-            Expériences
+              Expériences
             </Heading>
             <ExperienceBox
               name="O2feel e-bikes"
@@ -100,9 +93,9 @@ export default function Index() {
               badge_1="Stage"
               badge_2="Alternance"
             >
-              Mon poste en marketing digital m'a demandé une capacité d'adaptabilité n'ayant aucune expérience 
-              profesionnelle dans le monde du marketing. Ma curiosité naturelle m'a permis d'apprendre par moi-même en amont 
-              afin de me sentir dans mon élement dans ce nouvel ecosystème. Mon rôle est aujourd'hui de développer et de tenir à jour 
+              Mon poste en marketing digital m'a demandé une capacité d'adaptabilité n'ayant aucune expérience
+              profesionnelle dans le monde du marketing. Ma curiosité naturelle m'a permis d'apprendre par moi-même en amont
+              afin de me sentir dans mon élement dans ce nouvel ecosystème. Mon rôle est aujourd'hui de développer et de tenir à jour
               les différents sites de la startup, ainsi que préparer/publier les différentes publicités digitale.
             </ExperienceBox>
             <ExperienceBox
@@ -115,7 +108,7 @@ export default function Index() {
               Durant ce stage et cette alternance dans l'agence Apresta, j'ai eu l'occasion d'approfondir mes connaissances
               en développement web dans les langages HTML/CSS, JavaScript, PHP et SQL. Ces bonnes bases m'ont permises de
               développer plusieurs site par moi-même à l'aide du CMS Wordpress. Ma spécialisation SEO m'a aussi donné
-              l'occasion de rédiger des articles, d'analyser différents sites et de lancer des audits afin 
+              l'occasion de rédiger des articles, d'analyser différents sites et de lancer des audits afin
               d'optimiser leur référencement.
             </ExperienceBox>
 
@@ -138,7 +131,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} mb={4} size="lg" fontWeight={700} as="h2">
-              Articles les plus populaires
+              Articles les plus vus
             </Heading>
 
             <BlogPost
@@ -165,7 +158,7 @@ export default function Index() {
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 
             <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
-            Projets en vedette
+              Projets en cours
             </Heading>
             <FeaturedProjectCard
               title="Overdo.net"
@@ -213,11 +206,6 @@ export default function Index() {
             >
               <TechStack />
             </Flex>
-
-            <Divider mb={12} mt={16} w='90%' alignSelf="center" display={['none', 'flex', 'flex']}/>
-
-            <Text mt={8}>On dirait que vous êtes arrivé à la fin de cette page... n'hésitez pas à consulter ma <Link href="https://www.youtube.com/channel/UCbMZRxWXhbROK6Y0A5aBZOQ" isExternal color={linkColor[colorMode]}>chaîne YouTube </Link>où vous pouvez trouver encore plus de contenu en tout genre.
-            </Text>
 
           </Flex>
         </Stack>

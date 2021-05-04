@@ -61,7 +61,7 @@ const Hello = () => {
                             my={5}
                         />
                         <Heading letterSpacing="tight" mb={4} as="h1" size="xl" alignSelf="center">
-                            Bonjour 👋, moi c'est Florian
+                            Bonjour 👋 moi c'est Florian
                         </Heading>
                         <Text alignSelf="center" textAlign="center" mb={4}>Je suis étudiant, créateur et développeur. Utilisez les liens ci-dessous pour en savoir plus.</Text>
                         <SocialLink name="Consulter mon site Web" href="/" icon={CodeIcon} />

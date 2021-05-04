@@ -42,12 +42,12 @@ const TechStack = () => {
                 <Tbody>
                     <Tr>
                         <Td><Link href="https://nextjs.org" color={linkColor[colorMode]} isExternal>Next JS</Link></Td>
-                        <Td>n/a</Td>
+                        <Td opacity=".3">n/a</Td>
                         <Td>Mon framework JS pour ce site Web.</Td>
                     </Tr>
                     <Tr>
                         <Td><Link href="https://chakra-ui.com" color={linkColor[colorMode]} isExternal>Chakra UI</Link></Td>
-                        <Td>n/a</Td>
+                        <Td opacity=".3">n/a</Td>
                         <Td>Mon framework CSS pour ce site.</Td>
                     </Tr>
                     <Tr>
@@ -62,12 +62,12 @@ const TechStack = () => {
                     </Tr>
                     <Tr>
                         <Td>Nombre de Vues/J'aime des articles de blog en temps réel</Td>
-                        <Td>/api</Td>
+                        <Td opacity=".3">n/a</Td>
                         <Td>J'utilise <Link href="https://firebase.google.com" color={linkColor[colorMode]} isExternal>Firebase de Google</Link> pour stocker le nombre de vues et de mentions J'aime pour mes articles de blog.</Td>
                     </Tr>
                     <Tr>
                         <Td>Vercel</Td>
-                        <Td>n/a</Td>
+                        <Td opacity=".3">n/a</Td>
                         <Td>J'utilise <Link href="https://vercel.com" color={linkColor[colorMode]} isExternal>Vercel</Link> pour déployer mon application.</Td>
                     </Tr>
                 </Tbody>
