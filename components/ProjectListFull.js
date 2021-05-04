@@ -96,14 +96,6 @@ const ProjectListFull = () => {
 
     return (
         <>
-            <InputGroup mb={4} mr={4} w="100%">
-                <Input
-                    aria-label="Chercher par nom, description, ou langage."
-                    onChange={(e) => setSearchValue(e.target.value)}
-                    placeholder="Chercher par nom, description, ou langage."
-                />
-                <InputRightElement children={<SearchIcon color="gray.500" />} />
-            </InputGroup>
             <SimpleGrid columns={1} spacing="20px">
                 {!filteredProjects.length && 'No projects found.'}
                 {filteredProjects

@@ -45,11 +45,6 @@ const MobileNavigation = () => {
             mx="auto"
             display={['flex', 'none', 'none']}
         >
-            <NextLink href="/stats" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/statistics' ? navActiveBg[colorMode] : null}>
-                    Stats
-                </Button>
-            </NextLink>
             <NextLink href="/blog" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname.includes('/blog') ? navActiveBg[colorMode] : null}>
                     Blog
@@ -58,11 +53,6 @@ const MobileNavigation = () => {
             <NextLink href="/projets" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/projets' ? navActiveBg[colorMode] : null}>
                     Projets
-                </Button>
-            </NextLink>
-            <NextLink href="/outils" passHref>
-                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/outils' ? navActiveBg[colorMode] : null}>
-                    Outils
                 </Button>
             </NextLink>
             <NextLink href="/" passHref>

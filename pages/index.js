@@ -84,7 +84,7 @@ export default function Index() {
             </Text>
 
             <Heading letterSpacing="tight" mt={8} size="lg" fontWeight={700} as="h2">
-              Expériences
+              Expériences pro
             </Heading>
             <ExperienceBox
               name="O2feel e-bikes"

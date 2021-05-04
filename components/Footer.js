@@ -1,7 +1,7 @@
 import React from 'react'
 import NextLink from 'next/link'
 import { Flex, Link, IconButton, useColorMode } from '@chakra-ui/react'
-import { FiGithub, FiTwitter, FiLinkedin, FiYoutube, FiMail } from "react-icons/fi"
+import { FiGithub, FiFigma, FiLinkedin, FiMail } from "react-icons/fi"
 import NowPlaying from '../components/NowPlaying';
 
 export const Footer = () => {
@@ -19,10 +19,10 @@ export const Footer = () => {
         <Flex align="center" mb={4} direction="column" visibility={'hidden', 'visible', 'visible'} display={['none', 'flex', 'flex']}>
             <NowPlaying />
             <div>
-                <Link href="https://twitter.com/florianheysen" title="Twitter" isExternal>
+                <Link href="https://www.figma.com/@florianheysen" title="Figma" isExternal>
                     <IconButton
-                        aria-label="Twitter"
-                        icon={<FiTwitter />}
+                        aria-label="Figma"
+                        icon={<FiFigma />}
                         size="lg"
                         color={borderIcon[colorMode]}
                         variant="ghost"
@@ -53,20 +53,6 @@ export const Footer = () => {
                         _hover={{ backgroundColor: footerHoverBg[colorMode] }}
                     />
                 </Link>
-                <Link
-                    href="https://www.youtube.com/channel/UCbMZRxWXhbROK6Y0A5aBZOQ"
-                    title="YouTube"
-                    isExternal
-                >
-                    <IconButton
-                        aria-label="YouTube"
-                        icon={<FiYoutube />}
-                        size="lg"
-                        color={borderIcon[colorMode]}
-                        variant="ghost"
-                        _hover={{ backgroundColor: footerHoverBg[colorMode] }}
-                    />
-                </Link>
                 <Link href="mailto:heysen.florian@gmail.com" title="Email" isExternal>
                     <IconButton
                         aria-label="Email"
@@ -79,7 +65,7 @@ export const Footer = () => {
                 </Link>
             </div>
             <div>
-                <NextLink href="/bonjour" passHref>
+                <NextLink href="/stats" passHref>
                     <Link
                         fontSize="md"
                         color="gray.500"
@@ -87,10 +73,10 @@ export const Footer = () => {
                         mr={2}
                         title="Bonjour"
                     >
-                        /bonjour
+                        /stats
                     </Link>
                 </NextLink>
-                <NextLink href="/videos" passHref>
+                <NextLink href="/outils" passHref>
                     <Link
                         fontSize="md"
                         color="gray.500"
@@ -98,7 +84,7 @@ export const Footer = () => {
                         mr={2}
                         title="Hello"
                     >
-                        /videos
+                        /outils
                     </Link>
                 </NextLink>
             </div>

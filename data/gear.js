@@ -37,14 +37,14 @@ export const gear = [
     {
         id: 6,
         software: 0,
-        item: 'Headphone',
+        item: 'Casque',
         title: 'SteelSeries Arctis 1',
         url: 'https://amzn.to/3nhYWb5'
     },
     {
-        id:7,
+        id: 7,
         software: 0,
-        item: 'Earbuds',
+        item: 'Écouteurs',
         title: 'Apple Airpods 2',
         url: 'https://apple.co/2QTxPH2'
     },
@@ -72,23 +72,23 @@ export const gear = [
     {
         id: 11,
         software: 1,
-        item: 'Simulateur iPhone',
-        title: 'XCode',
-        url: 'https://apps.apple.com/us/app/xcode/id497799835?mt=12'
+        item: 'Simulateur iOS + Android',
+        title: 'Expo',
+        url: 'https://expo.io/'
     },
     {
         id: 12,
         software: 1,
-        item: 'Simulateur Android',
-        title: 'Android Studio',
-        url: 'https://developer.android.com/studio/?gclid=Cj0KCQjwoaz3BRDnARIsAF1RfLdlLYJYU8qNSzIcvluTDWbziHdDle1QrR1ntM1J0T8XsZ6sUFG9B4saAmhrEALw_wcB&gclsrc=aw.ds'
+        item: 'Montage vidéo',
+        title: 'Adobe Premiere Pro',
+        url: 'https://www.adobe.com/fr/products/premiere.html'
     },
     {
         id: 13,
         software: 1,
-        item: 'Montage vidéo',
-        title: 'Adobe Premiere Pro',
-        url: 'https://www.adobe.com/fr/products/premiere.html'
+        item: 'Animation',
+        title: 'Adobe After Effects',
+        url: 'https://www.adobe.com/fr/products/aftereffects.html'
     },
     {
         id: 14,
@@ -113,7 +113,7 @@ export const gear = [
     },
     {
         id: 17,
-        software: 2,
+        software: 0,
         item: 'Microphone',
         title: 'Bird UM1',
         url: 'https://amzn.to/3gAiNAQ'

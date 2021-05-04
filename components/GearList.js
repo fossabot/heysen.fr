@@ -56,7 +56,7 @@ const GearList = () => {
     return (
         <>
             <Heading letterSpacing="tight" mb={2} mt={2} as="h2" size="xl">
-                Matériel informatique
+                Matériel
             </Heading>
             {hardware.map((g, i) => (
                 <Gear key={i} gear={g} />

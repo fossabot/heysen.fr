@@ -66,40 +66,39 @@ const Projects = () => {
                         <Text color={colorSecondary[colorMode]}>Grâce à l'école, le travail, YouTube et ma curiosité, j'ai pu travaillé sur de nombreux projets au fil du temps. Cliquer sur la fiche du projet vous amènera au dépôt GitHub. Si vous aimez ou utilisez l'un de ces projets, pensez à donner une "star".
                         </Text>
                         <Heading letterSpacing="tight" as="h1" mt={4} size="xl" fontWeight={700}>
-                            Projets en vedette
+                            Projets en cours
                         </Heading>
                         <FeaturedProjectCard
-                        title="Overdo.net"
-                        href="https://overdo.net"
-                        src="/images/overdo.png"
-                        alt='Logo overdo'
-                        color={iconColor[colorMode]}
+                            title="Overdo.net"
+                            href="https://overdo.net"
+                            src="/images/overdo.png"
+                            alt='Logo overdo'
+                            color={iconColor[colorMode]}
                         >
-                        Overdo.net est le site web de mon projet d'infogérance cloud. Passionné de système et réseau, le cloud apparait comme la solution de demain pour les entreprises de toutes tailles.
+                            Overdo.net est le site web de mon projet d'infogérance cloud. Passionné de système et réseau, le cloud apparait comme la solution de demain pour les entreprises de toutes tailles.
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
-                        title="Akio studio"
-                        href="https://akio.studio/"
-                        src="/images/akio.png"
-                        alt='Logo akio'
-                        color={iconColor[colorMode]}
+                            title="Akio studio"
+                            href="https://akio.studio/"
+                            src="/images/akio.png"
+                            alt='Logo akio'
+                            color={iconColor[colorMode]}
                         >
-                        Jeune studio basé à Roubaix qui a pour but d'améliorer l'accessibilité digitale dans le monde du web. Ce site est développé avec <Code>NextJS</Code>, <Code>Strapi</Code> et <Code>Chakra-ui</Code>.
+                            Jeune studio basé à Roubaix qui a pour but d'améliorer l'accessibilité digitale dans le monde du web. Ce site est développé avec <Code>NextJS</Code>, <Code>Strapi</Code> et <Code>Chakra-ui</Code>.
                         </ FeaturedProjectCard>
                         <FeaturedProjectCard
-                        title="Site personnel"
-                        href="https://github.com/florianheysen/personal"
-                        src="/images/logo.png"
-                        alt='Personal website logo'
-                        color={iconColor[colorMode]}
+                            title="Site personnel"
+                            href="https://github.com/florianheysen/personal"
+                            src="/images/logo.png"
+                            alt='Personal website logo'
+                            color={iconColor[colorMode]}
                         >
-                        Mon site Web personnel sur lequel vous vous trouvez maintenant. Construit avec le générateur de site statique <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> et des serverless functions pour les données en temps réel.
+                            Mon site Web personnel sur lequel vous vous trouvez maintenant. Construit avec le générateur de site statique <Code>Next.js</Code>, <Code>chakra-ui</Code>, <Code>mdx</Code> et des serverless functions pour les données en temps réel.
                         </FeaturedProjectCard>
                         <Heading letterSpacing="tight" as="h2" mb={2} mt={4} size="xl" fontWeight={700}>
-                            Tous mes projets
+                            Projets publics
                         </Heading>
                         <ProjectListFull />
-                        <GitHubSponsorCard />
                     </Flex>
                 </Stack>
             </Container>
