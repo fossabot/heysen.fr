@@ -168,7 +168,7 @@ export default function Index() {
               alt='Logo firechat'
               color={iconColor[colorMode]}
             >
-              FireChat est un projet mettant en avant les outils de<Code>Firebase</Code> afin de construire un espace de discussion. <Code>Firebase Auth</Code>, <Code>Firestore</Code>, <Code>Chakra UI</Code>
+              FireChat est un projet mettant en avant les outils de <Code>Firebase</Code> afin de construire un espace de discussion. <Code>Firebase Auth</Code>, <Code>Firestore</Code>, <Code>Chakra UI</Code>
             </ FeaturedProjectCard>
             <FeaturedProjectCard
               title="Akio studio"
