@@ -162,13 +162,13 @@ export default function Index() {
               Projets en cours
             </Heading>
             <FeaturedProjectCard
-              title="Overdo.net"
-              href="https://overdo.net"
-              src="/images/overdo.png"
-              alt='Logo overdo'
+              title="FireChat"
+              href="https://firechat.pages.dev/"
+              src="/images/firechat.png"
+              alt='Logo firechat'
               color={iconColor[colorMode]}
             >
-              Overdo.net est le site web de mon projet d'infogérance cloud. Passionné de système et réseau, le cloud apparait comme la solution de demain pour les entreprises de toutes tailles.
+              FireChat est un projet mettant en avant les outils de<Code>Firebase</Code> afin de construire un espace de discussion. <Code>Firebase Auth</Code>, <Code>Firestore</Code>, <Code>Chakra UI</Code>
             </ FeaturedProjectCard>
             <FeaturedProjectCard
               title="Akio studio"
