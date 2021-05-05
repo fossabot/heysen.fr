@@ -1,12 +1,12 @@
 ![Bannière heysen.fr](https://i.imgur.com/FdEsFq7.png)
 
-# Introduction
+# 🚀 Introduction
 
 Heysen.fr est mon site web portfolio personnel, hébergé à cette adresse : [https://heysen.fr](https://heysen.fr).
 J'y partage mon univers et mes expériences en tant que développeur et designer à travers quelques projets et mes articles de blog. 
 (C'est aussi  mon un très bon terrain de jeu pour en apprendre toujours plus 👀)
 
-## Technologies utilisées
+## 👨🏻‍💻 Technologies utilisées
 
 - Framework Javascript: [Next.js](https://nextjs.org/)
 - Framework CSS: [Chakra](https://chakra-ui.com/)
@@ -17,7 +17,7 @@ J'y partage mon univers et mes expériences en tant que développeur et designer
 - Déploiement: [Vercel](https://vercel.com/)
 
 
-## MIT License
+## 📝 MIT License
 
 Copyright 2021 Florian Heysen
 
@@ -27,6 +27,6 @@ The above copyright notice and this permission notice shall be included in all c
 
 THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## LiberaPay
+## 👛 LiberaPay
 
 [![Donate](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/florianheysen/donate)
