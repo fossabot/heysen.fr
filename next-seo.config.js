@@ -1,27 +1,27 @@
-const title = 'Benjamin Carlson – Developer, writer, creator.'
+const title = 'Florian Heysen –  étudiant, développeur et créatif.'
 const description =
-    'Personal portfolio and resume website for Benjamin J. Carlson, a student, developer, writer, and creator attending CCSU in Connecticut.'
+    'Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu\'assistant responsable marketing digital.'
 
 const SEO = {
     title,
     description,
-    canonical: 'https://benjamincarlson.io',
+    canonical: 'https://heysen.fr',
     openGraph: {
         type: 'website',
         locale: 'en_IE',
-        url: 'https://benjamincarlson.io',
+        url: 'https://heysen.fr',
         title,
         description,
         images: [
             {
-                url: 'https://benjamincarlson.io/images/logo.png',
+                url: 'https://heysen.fr/images/logo.png',
                 alt: title
             }
         ]
     },
     twitter: {
-        handle: '@bjmncrlsn',   
-        site: '@bjmncrlsn',
+        handle: '@florianheysen',
+        site: '@florianheysen',
         cardType: 'summary_large_image'
     }
 }
