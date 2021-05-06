@@ -23,7 +23,7 @@ import Todo from '../components/Todo'
 import TechStack from '../components/TechStack'
 
 const url = 'https://heysen.fr/'
-const title = 'Accueil – Florian Heysen'
+const title = 'Bonjour 👋 moi c\'est Florian'
 const description = 'Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu\'assistant responsable marketing digital.'
 
 export default function Index() {
