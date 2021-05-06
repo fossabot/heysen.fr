@@ -18,9 +18,9 @@ import { SearchIcon } from '@chakra-ui/icons'
 import { getAllFilesFrontMatter } from '../lib/mdx'
 import Container from '../components/Container'
 
-const url = 'https://benjamincarlson.io/videos'
-const title = 'Videos – Benjamin Carlson'
-const description = 'A list of all my YouTube videos.'
+const url = 'https://heysen.fr/videos'
+const title = 'Vidéos – Florian Heysen'
+const description = 'Une liste de toutes mes vidéos YouTube.'
 
 export default function Videos({ vids }) {
     const [searchValue, setSearchValue] = useState('')
@@ -37,7 +37,7 @@ export default function Videos({ vids }) {
                 Number(new Date(b.publishedAt)) - Number(new Date(a.publishedAt))
         )
         .filter((frontMatter) =>
-            frontMatter.title.toLowerCase().includes(searchValue.toLowerCase()) || 
+            frontMatter.title.toLowerCase().includes(searchValue.toLowerCase()) ||
             frontMatter.summary.toLowerCase().includes(searchValue.toLowerCase())
         )
 

@@ -19,8 +19,8 @@ import Repos from '../components/statistics/Repos'
 import Charts from '../components/statistics/Charts'
 
 const url = 'https://heysen.fr/stats'
-const title = 'Statistics – Florian Heysen'
-const description = 'My personal dashboard. I use it to keep track of various stats such as YouTube, GitHub, Strava and more.'
+const title = 'Statistiques – Florian Heysen'
+const description = 'Mon tableau de bord personnel. Je l\'utilise pour garder une trace de diverses statistiques telles que YouTube, GitHub ou Spotify.'
 
 const Statistics = () => {
     const { colorMode } = useColorMode()

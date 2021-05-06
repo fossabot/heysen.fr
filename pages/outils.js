@@ -13,14 +13,13 @@ import {
     Button,
     ButtonGroup
 } from '@chakra-ui/react'
-import { FiArrowRight } from "react-icons/fi"
 
 import Container from '../components/Container'
 import GearList from '../components/GearList'
 
 const url = 'https://heysen.fr/outils'
 const title = 'Outils – Florian Heysen'
-const description = 'The gear I use for programming and productivity every day.'
+const description = 'L\'équipement que j\'utilise pour la programmation et le design au quotidien.'
 
 const Gear = () => {
     const { colorMode } = useColorMode()

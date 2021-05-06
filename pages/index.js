@@ -24,7 +24,7 @@ import TechStack from '../components/TechStack'
 
 const url = 'https://heysen.fr/'
 const title = 'Accueil – Florian Heysen'
-const description = ''
+const description = 'Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu\'assistant responsable marketing digital.'
 
 export default function Index() {
   const { colorMode } = useColorMode()

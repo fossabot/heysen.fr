@@ -17,7 +17,7 @@ import { GrGithub } from "react-icons/gr"
 
 const url = 'https://heysen.fr/projets'
 const title = 'Projets – Florian Heysen'
-const description = 'Here are some of the open source projects and GitHub repos I am working on.'
+const description = 'Voici quelques-uns des projets open source et des dépôts GitHub sur lesquels je travaille.'
 
 const Projects = () => {
     const { colorMode } = useColorMode()
