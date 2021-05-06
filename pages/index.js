@@ -88,7 +88,7 @@ export default function Index() {
               Expériences pro
             </Heading>
             <ExperienceBox
-              name="O2feel e-bikes"
+              name="🚲 O2feel e-bikes"
               years="oct. 2020 - Aujourd'hui"
               pos="Assistant chargé marketing digital"
               badge_1="Stage"
@@ -100,7 +100,7 @@ export default function Index() {
               les différents sites de la startup, ainsi que préparer/publier les différentes publicités digitale.
             </ExperienceBox>
             <ExperienceBox
-              name="Agence Apresta"
+              name="💻 Agence Apresta"
               years="avr. 2019 - juin 2020"
               pos="Développeur spécialisé SEO"
               badge_1="Stage"

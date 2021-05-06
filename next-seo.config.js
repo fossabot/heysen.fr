@@ -14,7 +14,7 @@ const SEO = {
         description,
         images: [
             {
-                url: 'https://heysen.fr/images/logo.png',
+                url: 'https://camo.githubusercontent.com/1702e810ba4351c3df1cfbd7f380151e238ba1067ead38caf9d6495c4d2cbf54/68747470733a2f2f692e696d6775722e636f6d2f466445734671372e706e67',
                 alt: title
             }
         ]
