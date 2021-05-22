@@ -10,8 +10,7 @@ import {
   Link,
   Code,
   Button,
-  Divider,
-  Box
+  Divider
 } from '@chakra-ui/react'
 
 import Container from '../components/Container'
