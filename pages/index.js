@@ -22,8 +22,8 @@ import Todo from '../components/Todo'
 import TechStack from '../components/TechStack'
 
 const url = 'https://heysen.fr/'
-const title = 'Bonjour 👋 moi c\'est Florian'
-const description = 'Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu\'assistant responsable marketing digital.'
+const title = 'Florian Heysen – Étudiant créatif et développeur basé en France'
+const description = 'Je travaille à O2feel en tant qu\'assistant responsable marketing digital. Découvrez mes projets, mes certifications et mon blog sur le digital et le cloud !'
 
 export default function Index() {
   const { colorMode } = useColorMode()

@@ -5,13 +5,7 @@ import {
     Heading,
     Text,
     Flex,
-    Stack,
-    Link,
-    Box,
-    Image,
-    Badge,
-    Button,
-    ButtonGroup
+    Stack
 } from '@chakra-ui/react'
 
 import Container from '../components/Container'

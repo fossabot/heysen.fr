@@ -1,6 +1,6 @@
-const title = 'Florian Heysen –  étudiant, développeur et créatif.'
+const title = 'Florian Heysen – Étudiant créatif et développeur basé en France'
 const description =
-    'Je suis étudiant, développeur et créatif. Je travaille à O2feel en tant qu\'assistant responsable marketing digital.'
+    'Je travaille à O2feel en tant qu\'assistant responsable marketing digital. Découvrez mes projets, mes certifications et mon blog sur le digital et le cloud !'
 
 const SEO = {
     title,
@@ -8,7 +8,7 @@ const SEO = {
     canonical: 'https://heysen.fr',
     openGraph: {
         type: 'website',
-        locale: 'en_IE',
+        locale: 'fr_FR',
         url: 'https://heysen.fr',
         title,
         description,

@@ -8,10 +8,13 @@ import MDXComponents from '../components/MDXComponents'
 import SEO from '../next-seo.config'
 import { Chakra } from "../src/Chakra"
 
+//----------------------------------------------------------------//
+console.clear()
 console.log(
   "%c ☁️ Site hébergé et developpé par overdo.net dans le cloud",
   "background-color: #91ccec; color: black; display: block;"
-);
+)
+//----------------------------------------------------------------//
 
 const GlobalStyle = ({ children }) => {
   const { colorMode } = useColorMode()

@@ -55,6 +55,11 @@ const MobileNavigation = () => {
                     Projets
                 </Button>
             </NextLink>
+            <NextLink href="/certifications" passHref>
+                <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/certifications' ? navActiveBg[colorMode] : null}>
+                    Certifications
+                </Button>
+            </NextLink>
             <NextLink href="/" passHref>
                 <Button as="a" variant="ghost" p={[1, 2, 4]} backgroundColor={router.pathname === '/' ? navActiveBg[colorMode] : null}>
                     Accueil

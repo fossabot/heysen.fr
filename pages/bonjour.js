@@ -54,7 +54,7 @@ const Hello = () => {
                     >
                         <Avatar
                             size='2xl'
-                            name="Benjamin Carlson"
+                            name="Florian Heysen"
                             src="../images/portrait.jpeg"
                             mr={2}
                             alignSelf="center"

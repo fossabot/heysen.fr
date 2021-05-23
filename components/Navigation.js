@@ -62,6 +62,17 @@ const Navigation = () => {
                         Blog
                     </Button>
                 </NextLink>
+                <NextLink href="/certifications" passHref>
+                    <Button
+                        as="a"
+                        variant="ghost"
+                        p={[1, 2, 4]}
+                        _hover={{ backgroundColor: navHoverBg[colorMode] }} backgroundColor={router.pathname.includes('/certifications') ? navHoverBg[colorMode] : null}
+                        aria-label="Blog"
+                    >
+                        Certifications
+                    </Button>
+                </NextLink>
                 <NextLink href="/projets" passHref>
                     <Button
                         mx="2"

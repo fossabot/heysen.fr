@@ -31,8 +31,8 @@ const Todo = () => {
     }
 
     const [todos, setTodos] = useState([
-        'Développer un projet concret NextJS',
-        'Approfondir mes connaissances React.js',
+        'Passer la spécialisation "Developing Applications with Google Cloud"',
+        'Développer un projet concret NextJS et le déployer sur GCP',
         'Veille et comparatif de Headless CMS'
     ])
     const [todo, setTodo] = useState('')
