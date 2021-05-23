@@ -77,7 +77,7 @@ export default function Index() {
               as="h1"
               size="2xl"
             >
-              Bonjour 👋 moi c'est Florian
+              Bonjour 👋🏼 moi c'est Florian
             </Heading>
             <Text fontSize="xl" color={colorSecondary[colorMode]}>
               Je suis étudiant, développeur et créatif. Je travaille à <span className={colorMode === 'dark' ? 'svglogo-light' : 'svglogo-dark'}>O2feel</span> en tant qu'assistant responsable marketing digital et vous avez trouvé ma petite contribution personnelle au web en venant sur mon site.
@@ -111,6 +111,16 @@ export default function Index() {
               l'occasion de rédiger des articles, d'analyser différents sites et de lancer des audits afin
               d'optimiser leur référencement.
             </ExperienceBox>
+
+            <Flex justify="center" mt={8} width="100%">
+              <NextLink href="/certifications" passHref>
+                <Link _hover="none">
+                  <Button rightIcon={<ArrowForwardIcon />} colorScheme="gray" variant="outline" aria-label="view all posts">
+                    Voir mes certifications
+                  </Button>
+                </Link>
+              </NextLink>
+            </Flex>
 
             <Divider mb={12} mt={16} w='90%' alignSelf="center" />
 

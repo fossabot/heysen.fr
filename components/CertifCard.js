@@ -9,7 +9,7 @@ import {
     Image
 } from '@chakra-ui/react'
 
-const FeaturedProjectCard = ({ title, href, children, src, alt }) => {
+const CertifCard = ({ title, href, children, src, alt }) => {
     const { colorMode } = useColorMode()
     const borderColor = {
         light: 'gray.100',
@@ -62,4 +62,4 @@ const FeaturedProjectCard = ({ title, href, children, src, alt }) => {
     )
 }
 
-export default FeaturedProjectCard
+export default CertifCard
