@@ -6581,7 +6581,7 @@
 
 "postcss@^8.2.10":
   "integrity" "sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-7.0.35.tgz"
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.10.tgz"
   "version" "8.2.10"
   dependencies:
     "chalk" "^2.4.2"
@@ -6590,8 +6590,8 @@
 
 "postcss@8.2.10":
   "integrity" "sha512-llCQW1Pz4MOPwbZLmOddGM9eIJ8Bh7SZ2Oj5sxZva77uVaotYDsYTch1WBTNu7fUY0fpWp0fdt7uW40D4sRiiQ=="
-  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.1.7.tgz"
-  "version" "8.1.7"
+  "resolved" "https://registry.npmjs.org/postcss/-/postcss-8.2.10.tgz"
+  "version" "8.2.10"
   dependencies:
     "colorette" "^1.2.1"
     "line-column" "^1.0.2"
