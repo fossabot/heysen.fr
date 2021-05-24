@@ -23,7 +23,7 @@ import GitHubSponsorCard from '../components/GitHubSponsorCard'
 import Comments from '../components/blog/Comments'
 
 const editUrl = (slug) =>
-    `https://github.com/florianheysen/personal/edit/main/pages/blog${slug}.mdx`
+    `https://github.com/florianheysen/heysen.fr/edit/master/data/blog/${slug}.mdx`
 const tweetUrl = (slug) =>
     `https://twitter.com/intent/tweet?text=https://heysen.fr/blog${slug} par @florianheysen`
 

@@ -59,7 +59,7 @@ const Projects = () => {
                         <Heading letterSpacing="tight" mb={2} as="h1" size="2xl">
                             Certifications
                         </Heading>
-
+                        
                         <CertifCard
                             title="Google Cloud Platform Fundamentals: Core Infrastructure"
                             href="https://www.coursera.org/account/accomplishments/verify/ED5KJ2HXJU3U"
@@ -108,7 +108,7 @@ const Projects = () => {
                             alt='Logo Uxcel'
                             color={iconColor[colorMode]}
                         >
-                            À travers les concepts de bases, ce cours a mis en lumière les meilleures pratiques afin d'expliquer comment l'accessibilité profite à tous, développeur comme utilisateurs finaux. Lignes directrices maîtrisées :<Code>Web Content Accessibility Guidelines (WCAG)</Code>
+                            À travers les concepts de bases, ce cours a mis en lumière les meilleures pratiques afin d'expliquer comment l'accessibilité profite à tous, développeur comme utilisateurs finaux. Lignes directrices maîtrisées : <Code>WCAG by W3C</Code>
                         </CertifCard>
 
                     </Flex>

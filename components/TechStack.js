@@ -31,7 +31,7 @@ const TechStack = () => {
             <Heading letterSpacing="tight" mt={8} mb={2} size="lg" fontWeight={700} as="h2">
                 Tech Stack
             </Heading>
-            <Text color={colorSecondary[colorMode]} mb={4}>Les technologies utilisées pour ce site web. <Link href="https://github.com/florianheysen/personal" isExternal>Voir le code <ExternalLinkIcon mt="-5px" /></Link></Text>
+            <Text color={colorSecondary[colorMode]} mb={4}>Les technologies utilisées pour ce site web. <Link href="https://github.com/florianheysen/personal" isExternal>Code open source <ExternalLinkIcon mt="-5px" /></Link></Text>
             <Table variant="simple">
                 <Thead>
                     <Tr>
