@@ -6579,10 +6579,10 @@
   "resolved" "https://registry.npmjs.org/postcss-value-parser/-/postcss-value-parser-4.1.0.tgz"
   "version" "4.1.0"
 
-"postcss@^7.0.32":
+"postcss@^8.2.10":
   "integrity" "sha512-3QT8bBJeX/S5zKTTjTCIjRF3If4avAT6kqxcASlTWEtAFCb9NH0OUxNDfgZSWdP5fJnBYCMEWkIFfWeugjzYMg=="
   "resolved" "https://registry.npmjs.org/postcss/-/postcss-7.0.35.tgz"
-  "version" "7.0.35"
+  "version" "8.2.10"
   dependencies:
     "chalk" "^2.4.2"
     "source-map" "^0.6.1"
@@ -8118,10 +8118,10 @@
   "resolved" "https://registry.npmjs.org/trim-trailing-lines/-/trim-trailing-lines-1.1.4.tgz"
   "version" "1.1.4"
 
-"trim@0.0.1":
+"trim@0.0.3":
   "integrity" "sha1-WFhUf2spB1fulczMZm+1AITEYN0="
   "resolved" "https://registry.npmjs.org/trim/-/trim-0.0.1.tgz"
-  "version" "0.0.1"
+  "version" "0.0.3"
 
 "trough@^1.0.0":
   "integrity" "sha512-rvuRbTarPXmMb79SmzEp8aqXNKcK+y0XaB298IXueQ8I2PsrATcPBCSPyK/dDNa2iWOhKlfNnOjdAOTBU/nkFA=="
