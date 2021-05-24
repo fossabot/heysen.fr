@@ -11,7 +11,7 @@ import { Chakra } from "../src/Chakra"
 //----------------------------------------------------------------//
 console.clear()
 console.log(
-  "%c ☁️ Site hébergé et developpé par overdo.net dans le cloud",
+  "%c ☁️ Site développé, hébergé et sécurisé par overdo.net",
   "background-color: #91ccec; color: black; display: block;"
 )
 //----------------------------------------------------------------//
